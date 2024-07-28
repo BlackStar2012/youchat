@@ -2,11 +2,11 @@
   {
     "key": "chatgpt-prompts-zh",
     "desc": "ChatGPT 中文提示指南",
-    "downloadUrl": "coming soon",
+    "downloadUrl": "coming soon"
   },
   {
     "key": "chatgpt-prompts-zh-TW",
     "desc": "ChatGPT 中文提示指南 (透過 OpenAI / OpenCC 協助，從簡體中文轉換為繁體中文的版本)",
-    "downloadUrl": "coming soon",
+    "downloadUrl": "coming soon"
   }
 ]
