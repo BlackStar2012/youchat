@@ -16,7 +16,7 @@ export function defaultSetting(): UserState {
   return {
     userInfo: {
       avatar: 'https://raw.githubusercontent.com/BlackStar2012/youchat/main/src/assets/avatar.jpg',
-      name:  t('mjset.sysname'),//'Miusi AI',
+      name:  t('mjset.sysname'),//'AI绘图',
       description: 'Your personal assistant',
     },
   }
