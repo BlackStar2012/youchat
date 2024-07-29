@@ -356,14 +356,6 @@ export const getSeed = async (cchat:Chat.Chat,message:any )=>{
   
 }
 
-export const getLastVersion=  async ()=>{
-    const url='https://api.github.com/repos/Dooy/chatgpt-web-midjourney-proxy/tags?per_page=1';
-    const a= await myFetch(url);
-    mlog('lastVersion', a ); 
-    return a;
-    
-}
-
 export const canVisionModel= (model:string)=>{
     mlog('canVisionModel ',model );
     //['gpt-4-all','gpt-4-v'].indexOf(model)==-1 && model.indexOf('gpt-4-gizmo')==-1
