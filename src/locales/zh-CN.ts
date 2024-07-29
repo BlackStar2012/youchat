@@ -267,7 +267,7 @@ export default {
 
     ,findVersion:'发现更新版本'
     ,yesLastVersion:'已是最新版本'
-    ,infoStar:'由于资金有限，请勿滥用！如果遇到Token用尽，最晚会在第二天24小时之前充值完毕。'
+    ,infoStar:'由于资金有限，请勿滥用！如遇Token用尽，最晚于次日24时之前完成充值。'
     ,setBtSaveChat:'仅保存会话'
     ,setBtSaveSys: '保存至系统'
 

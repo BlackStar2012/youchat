@@ -164,7 +164,7 @@ export default {
     "mSent": "전송",
     "findVersion": "최신 버전 찾기",
     "yesLastVersion": "최신 버전입니다",
-    "infoStar": "이 프로젝트는 <a class=\"text-blue-600 dark:text-blue-500\" href=\"https://github.com/Dooy/chatgpt-web-midjourney-proxy\" target=\"_blank\">GitHub</a>에서 오픈 소스로 제공되며 MIT 라이선스를 기반으로 하며 어떠한 유료 행위도 없습니다! </p><p>이 프로젝트가 도움이 되었다면 GitHub에서 별을 주시기 바랍니다. 감사합니다!",
+    "infoStar": "자금이 한정되어 있으니 남용하지 마세요! 토큰이 소진된 경우 늦어도 다음날 24시 이전에 충전을 완료해야 합니다.",
     "setBtSaveChat": "대화만 저장",
     "setBtSaveSys": "시스템에 저장",
 

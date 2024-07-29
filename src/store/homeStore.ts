@@ -67,7 +67,7 @@ let v:gptConfigType={
         model: amodel,
         max_tokens:1024,
         userModel:'',
-        talkCount:10,
+        talkCount:5,
         systemMessage:'',
         temperature:0.5,
         top_p:1,
