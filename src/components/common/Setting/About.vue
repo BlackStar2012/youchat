@@ -2,7 +2,6 @@
 import { computed, onMounted, ref } from 'vue'
 import { NSpin } from 'naive-ui'
 import pkg from '../../../../package.json'
-import { fetchChatConfig ,getLastVersion} from '@/api'
 import { useAuthStore } from '@/store'
 import { gptUsage  } from "@/api";
 
@@ -48,30 +47,6 @@ async function fetchConfig() {
     loading.value = false
   }
 }
-const getLastFrom= ()=>{
-  const str = localStorage.getItem('lastVersion');
-  if(!str) return '';
-  const obj = JSON.parse(str);
-  if( Date.now()- obj.t>1000*60*60 ){
-    return '';
-  }
-  return obj.v;
-}
-onMounted( () => {
-  fetchConfig();
-  
-  let t = getLastFrom();
-  if(t){
-     st.value.lastVersion = t ;
-  }else {
-    getLastVersion().then(res=>{
-      if(  res[0] && res[0].name ){
-        st.value.lastVersion = res[0].name;
-        localStorage.setItem('lastVersion',JSON.stringify( {v:  res[0].name,t: Date.now() } ))
-      }
-    });
-  }
-})
 const  isShow = computed(()=>{
   return st.value.lastVersion && st.value.lastVersion != `v${pkg.version}`
 });
