@@ -167,7 +167,7 @@ export default {
 
         "findVersion": "Güncellenmiş sürümü keşfet",
         "yesLastVersion": "Zaten en son sürümde",
-        "infoStar": 'Fonlar sınırlı olduğundan lütfen kötüye kullanmayın! Jetonların tükenmesi durumunda şarj işleminin en geç ertesi gün saat 24:00'a kadar tamamlanması gerekmektedir.',
+        "infoStar": "Fonlar sınırlı olduğundan lütfen kötüye kullanmayın! Jetonların tükenmesi durumunda şarj işleminin en geç ertesi gün saat 24:00'a kadar tamamlanması gerekmektedir.",
         "setBtSaveChat": "Sadece sohbeti kaydet",
         "setBtSaveSys": "Sisteme kaydet",
         "wsrvClose": "wsrv'yi kapat",
